@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+
+           <ProgressBar
+               android:layout_width="match_parent"
+               android:layout_height="52dp"
+               android:id="@+id/progress_bar"
+               style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/headerTextView"
+               android:gravity="center"
+               android:textStyle="bold"
+               android:text="Enter  details"
+               android:textSize="20sp" />
+
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/nameEditText"
+               android:layout_marginStart="16dp"
+               android:minLines="3"
+               android:inputType="text"
+               android:hint="Name"
+               android:layout_marginLeft="16dp" />
+
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/descriptionEditText"
+               android:layout_marginStart="16dp"
+               android:minLines="3"
+               android:inputType="text"
+               android:hint="Description"
+               android:layout_marginLeft="16dp" />
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+
+               <Button
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/button_choose_image"
+                   android:layout_marginStart="16dp"
+                   android:textColor="@color/colorPrimaryDark"
+                   android:background="@color/colorPrimary"
+                   android:text="choose Image"
+                   android:layout_marginLeft="16dp" />
+
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="180dp"
+                   android:id="@+id/chosenImageView"/>
+           </LinearLayout>
+
+           <Button
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/uploadBtn"
+               android:layout_gravity="center"
+               android:gravity="center"
+               android:layout_marginStart="16dp"
+               android:textColor="@color/colorPrimaryDark"
+               android:background="@color/colorPrimary"
+               android:text="Upload"
+               android:layout_marginLeft="16dp" />
+
+       </LinearLayout>
+    </ScrollView>
+</LinearLayout>

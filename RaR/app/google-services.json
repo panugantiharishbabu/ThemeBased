@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "802809484145",
+    "firebase_url": "https://rentaroom-53b02.firebaseio.com",
+    "project_id": "rentaroom-53b02",
+    "storage_bucket": "rentaroom-53b02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802809484145:android:76efafb4f6422e3e",
+        "android_client_info": {
+          "package_name": "com.example.sathish.rar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802809484145-e1s7j0g3itis1kp9lv1p24ugo61h3vk7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sathish.rar",
+            "certificate_hash": "2f2755484239fff20e04470fe85a4c4a361a08b4"
+          }
+        },
+        {
+          "client_id": "802809484145-9ia5djslousfu9mqnct9fgrsdak2aqk6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE7fKixsFRYMhuT_iPhk5n8PkgG6MZz1g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802809484145-9ia5djslousfu9mqnct9fgrsdak2aqk6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
